@@ -23,8 +23,8 @@ namespace Calculs
             choix = "1";
             while (choix != "0")
             {
-                val1 = rand.Next(1, 10);
-                val2 = rand.Next(1, 10);
+                val1 = rand.Next(1, 20);
+                val2 = rand.Next(1, 20);
 
                 // affiche le menu et saisi le choix
                 Console.WriteLine("Addition ....................... 1");
